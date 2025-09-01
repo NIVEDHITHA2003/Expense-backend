@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB connection (Compass)
-mongoose.connect("mongodb+srv://prahulhariharan2005_db_user:BoNrrNy3r9U3ovj4@cluster0.wptvs8b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("mongodb+srv://nivedhitha2303_db_user:4C0HVzRvQ2hNEbhD@cluster0.5wgwh9z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     .then(() => console.log("MongoDB Atlas connected"))
     .catch(err => console.log(err));
 
